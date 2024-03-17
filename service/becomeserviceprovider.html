@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a service provider</title>
+    <style>
+        .container {
+    background-color:whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.175);
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 40px;
+    margin-top: 7rem;
+}
+
+.container h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #767474;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 1rem;
+    outline: none;
+}
+
+.container .input {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.input:hover {
+    border-color:#999999;
+}
+
+.input:focus {
+    border-color:#0d6efd;
+}
+[type="text"]{
+    /* border-collapse: collapse; */
+    height: 5vh;
+    width: 98.4%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    /* background-color: #bbbbbb; */
+}
+[type="tel"]{
+    /* border-collapse: collapse; */
+    height: 5vh;
+    width: 98.4%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    /* background-color: #bbbbbb; */
+}
+select{
+    height: 5vh;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    font-size: 15px;
+    /* font-family: sans-serif; */
+}
+[type="submit"] {
+    background:#084b83;
+    color:white;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 3px;
+    padding: 12px 0;
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 0px;
+    font-weight: bold;
+    width: 100%;
+}
+
+[type="submit"]:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #767474;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Form</h1> -->
+        <form action="" method="">
+            <!-- <label for="name">Name:</label><br>
+            <input type="text"><br>
+            <label for="number">Contact:</label><br>
+            <input type="tel"><br>
+            <label for="file" style="font-family: sans-serif;">Upload File:</label><br>
+            <input type="file"><br>
+            <button type="submit">Submit</button> -->
+            <label for="">Service Category:</label><br>
+            <select for="service_category">
+            <option>Electrician</option>
+            <option>Tutor</option>
+            <option>Event Planner</option>
+            <option>Photographer</option>
+            <option>Gardener</option>
+            <option>Pet Care</option>
+            <option>Tour Guide</option>
+            </select><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
